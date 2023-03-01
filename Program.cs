@@ -11,7 +11,6 @@ class Program {
         int pass4 = (pass / 100) % 10;
         int pass5 = (pass / 10) % 10;
         int pass6 = (pass / 1) % 10;
-
         if(password.Length == 6){
         Console.Write("Agency (e.g. FBI, CIA, NSA): ");
         string agen = Console.ReadLine();
